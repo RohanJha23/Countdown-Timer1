@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins&display=swap');
+
+body{
+
+    background-image: url("diwali.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+h1{
+    font-size: 2rem;
+}
+.countdown-container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.big-text{
+    font-family: 'Noto Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+#Main-Text{
+    font-size: 100px;
+}
+.countdown-container h1{
+    font-size: 70px;
+}
+
